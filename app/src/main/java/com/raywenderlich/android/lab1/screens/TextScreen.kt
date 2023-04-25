@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.sp
 import com.raywenderlich.android.lab1.router.FundamentalsRouter
 import com.raywenderlich.android.lab1.router.Screen
 
+
 @Composable
 fun TextScreen() {
     Column(
@@ -37,9 +38,11 @@ fun MyText() {
 
     Text(
         text = stringResource(id = R.string.set_text),
+
         fontStyle = FontStyle.Normal,
         color = colorResource(id = R.color.blue),
         fontWeight = FontWeight.Black,
         fontSize = 30.sp
+
     )
 }
